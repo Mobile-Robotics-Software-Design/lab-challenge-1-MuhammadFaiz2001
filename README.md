@@ -6,3 +6,7 @@ b. Why is using a simulator important in Robotics?
 
 c. Briefly describe the RoboMaker platform. Also, list its strength and weak points in your
 personal opinion.
+
+
+
+Video: https://youtu.be/U5E2SHKWSYQ
