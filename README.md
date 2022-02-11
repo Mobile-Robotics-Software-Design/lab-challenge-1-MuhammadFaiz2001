@@ -1,4 +1,4 @@
-ction document answering the following questions:
+A reflection document answering the following questions:
 a. Do you think ROS is beneficial for developing a robotic application? Explain your answer.
 b. Why is using a simulator important in Robotics?
 Download the sample
