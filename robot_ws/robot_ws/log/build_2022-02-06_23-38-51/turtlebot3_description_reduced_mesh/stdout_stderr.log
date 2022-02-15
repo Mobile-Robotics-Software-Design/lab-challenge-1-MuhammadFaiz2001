@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/turtlebot3_description_reduced_mesh/devel
+-- Using CMAKE_PREFIX_PATH: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/simulation_ws/install/hello_world_simulation;/opt/ros/melodic
+-- This workspace overlays: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/simulation_ws/install/hello_world_simulation;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/turtlebot3_description_reduced_mesh/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/turtlebot3_description_reduced_mesh
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig/turtlebot3_description_reduced_mesh.pc
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/cmake/turtlebot3_description_reduced_meshConfig.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/cmake/turtlebot3_description_reduced_meshConfig-version.cmake
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/package.xml
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/launch/spawn_turtlebot.launch
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/r200.jpg
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/astra.dae
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/astra.jpg
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/r200.dae
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/lds.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/left_tire.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/right_tire.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/right_tire_reduced.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/left_tire_reduced.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base_reduced.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/burger_base.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_base_for_open_manipulator.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base_for_open_manipulator.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_base.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/burger_base_decimated.stl
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger_for_autorace.gazebo.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi.gazebo.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger.urdf.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_for_open_manipulator.urdf.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/common_properties.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi_for_open_manipulator.urdf.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger_for_autorace.urdf.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi.urdf.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle.urdf.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle.gazebo.xacro
+-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger.gazebo.xacro

@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000633] (hello_world_robot) JobQueued: {'identifier': 'hello_world_robot', 'dependencies': OrderedDict()}
+[0.001457] (hello_world_robot) JobStarted: {'identifier': 'hello_world_robot'}
+[0.099321] (-) TimerEvent: {}
+[0.199818] (-) TimerEvent: {}
+[0.300258] (-) TimerEvent: {}
+[0.400891] (-) TimerEvent: {}
+[0.501361] (-) TimerEvent: {}
+[0.515121] (hello_world_robot) JobEnded: {'identifier': 'hello_world_robot', 'rc': 0}
+[0.515969] (-) EventReactorShutdown: {}

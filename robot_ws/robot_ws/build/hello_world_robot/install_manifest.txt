@@ -1,0 +1,10 @@
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/pkgconfig/hello_world_robot.pc
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig.cmake
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig-version.cmake
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/package.xml
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/hello_world_robot/rotate.py
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/deploy_rotate.launch
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/rotate.launch
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/deploymentScripts/post_launch_file.sh
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/deploymentScripts/pre_launch_file.sh
+/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/rviz/turtlebot3_model.rviz

@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/turtlebot3_description_reduced_mesh
+
+Name: turtlebot3_description_reduced_mesh
+Description: Description of turtlebot3_description_reduced_mesh
+Version: 1.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_ros

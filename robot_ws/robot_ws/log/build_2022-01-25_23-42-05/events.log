@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.001421] (hello_world_robot) JobQueued: {'identifier': 'hello_world_robot', 'dependencies': OrderedDict()}
+[0.001555] (hello_world_robot) JobStarted: {'identifier': 'hello_world_robot'}
+[0.099369] (-) TimerEvent: {}
+[0.136491] (hello_world_robot) JobProgress: {'identifier': 'hello_world_robot', 'progress': 'cmake'}
+[0.136838] (hello_world_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/src/hello_world_robot', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot'], 'cwd': '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,9087,2'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('SSH_CLIENT', '35.172.155.192 63385 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'voclabs'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'voclabs'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.6.6'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.6.6/.irbrc'), ('XDG_SESSION_ID', '162'), ('TERM', 'xterm-256color'), ('PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/opt/ros/melodic/bin:/usr/local/rvm/gems/ruby-2.6.6/bin:/usr/local/rvm/gems/ruby-2.6.6@global/bin:/usr/local/rvm/rubies/ruby-2.6.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.6.6'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '44.201.115.11'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.6.6'), ('C9_PID', 'd0e321718f0a4d0e8bcf1b64cf2405e7'), ('rvm_version', '1.29.12 (latest)'), ('C9_PROJECT', 'ros_melodic'), ('PWD', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.6.6:/usr/local/rvm/gems/ruby-2.6.6@global'), ('SSH_CONNECTION', '35.172.155.192 41906 172.31.83.243 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%2'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.6.6/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[0.199607] (-) TimerEvent: {}
+[0.300265] (-) TimerEvent: {}
+[0.400692] (-) TimerEvent: {}
+[0.501211] (-) TimerEvent: {}
+[0.601633] (-) TimerEvent: {}
+[0.701997] (-) TimerEvent: {}
+[0.802593] (-) TimerEvent: {}
+[0.903119] (-) TimerEvent: {}
+[1.003681] (-) TimerEvent: {}
+[1.104275] (-) TimerEvent: {}
+[1.204719] (-) TimerEvent: {}
+[1.305116] (-) TimerEvent: {}
+[1.405560] (-) TimerEvent: {}
+[1.506006] (-) TimerEvent: {}
+[1.606586] (-) TimerEvent: {}
+[1.707006] (-) TimerEvent: {}
+[1.807458] (-) TimerEvent: {}
+[1.907870] (-) TimerEvent: {}
+[2.008176] (-) TimerEvent: {}
+[2.108500] (-) TimerEvent: {}
+[2.208919] (-) TimerEvent: {}
+[2.309351] (-) TimerEvent: {}
+[2.409896] (-) TimerEvent: {}
+[2.510538] (-) TimerEvent: {}
+[2.611135] (-) TimerEvent: {}
+[2.711582] (-) TimerEvent: {}
+[2.812049] (-) TimerEvent: {}
+[2.912519] (-) TimerEvent: {}
+[3.012943] (-) TimerEvent: {}
+[3.113372] (-) TimerEvent: {}
+[3.213769] (-) TimerEvent: {}
+[3.314151] (-) TimerEvent: {}
+[3.414587] (-) TimerEvent: {}
+[3.515103] (-) TimerEvent: {}
+[3.615610] (-) TimerEvent: {}
+[3.716116] (-) TimerEvent: {}
+[3.816627] (-) TimerEvent: {}
+[3.917144] (-) TimerEvent: {}
+[4.017668] (-) TimerEvent: {}
+[4.118113] (-) TimerEvent: {}
+[4.218528] (-) TimerEvent: {}
+[4.319039] (-) TimerEvent: {}
+[4.419553] (-) TimerEvent: {}
+[4.520133] (-) TimerEvent: {}
+[4.620593] (-) TimerEvent: {}
+[4.721049] (-) TimerEvent: {}
+[4.821517] (-) TimerEvent: {}
+[4.921978] (-) TimerEvent: {}
+[5.022466] (-) TimerEvent: {}
+[5.122930] (-) TimerEvent: {}
+[5.223461] (-) TimerEvent: {}
+[5.324073] (-) TimerEvent: {}
+[5.424721] (-) TimerEvent: {}
+[5.525270] (-) TimerEvent: {}
+[5.625632] (-) TimerEvent: {}
+[5.726019] (-) TimerEvent: {}
+[5.826522] (-) TimerEvent: {}
+[5.927078] (-) TimerEvent: {}
+[6.018624] (hello_world_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[6.027216] (-) TimerEvent: {}
+[6.127579] (-) TimerEvent: {}
+[6.227963] (-) TimerEvent: {}
+[6.328421] (-) TimerEvent: {}
+[6.428883] (-) TimerEvent: {}
+[6.529342] (-) TimerEvent: {}
+[6.629794] (-) TimerEvent: {}
+[6.730263] (-) TimerEvent: {}
+[6.830808] (-) TimerEvent: {}
+[6.931352] (-) TimerEvent: {}
+[7.031747] (-) TimerEvent: {}
+[7.132130] (-) TimerEvent: {}
+[7.232507] (-) TimerEvent: {}
+[7.332919] (-) TimerEvent: {}
+[7.433302] (-) TimerEvent: {}
+[7.533681] (-) TimerEvent: {}
+[7.634084] (-) TimerEvent: {}
+[7.734481] (-) TimerEvent: {}
+[7.834930] (-) TimerEvent: {}
+[7.935464] (-) TimerEvent: {}
+[8.035869] (-) TimerEvent: {}
+[8.136275] (-) TimerEvent: {}
+[8.236718] (-) TimerEvent: {}
+[8.337236] (-) TimerEvent: {}
+[8.437630] (-) TimerEvent: {}
+[8.538068] (-) TimerEvent: {}
+[8.638521] (-) TimerEvent: {}
+[8.738932] (-) TimerEvent: {}
+[8.839389] (-) TimerEvent: {}
+[8.939790] (-) TimerEvent: {}
+[9.040238] (-) TimerEvent: {}
+[9.140609] (-) TimerEvent: {}
+[9.241064] (-) TimerEvent: {}
+[9.341717] (-) TimerEvent: {}
+[9.442375] (-) TimerEvent: {}
+[9.542840] (-) TimerEvent: {}
+[9.643231] (-) TimerEvent: {}
+[9.743769] (-) TimerEvent: {}
+[9.844242] (-) TimerEvent: {}
+[9.944724] (-) TimerEvent: {}
+[10.045200] (-) TimerEvent: {}
+[10.145674] (-) TimerEvent: {}
+[10.246147] (-) TimerEvent: {}
+[10.346638] (-) TimerEvent: {}
+[10.447056] (-) TimerEvent: {}
+[10.547489] (-) TimerEvent: {}
+[10.647897] (-) TimerEvent: {}
+[10.748310] (-) TimerEvent: {}
+[10.848714] (-) TimerEvent: {}
+[10.949149] (-) TimerEvent: {}
+[11.049535] (-) TimerEvent: {}
+[11.149890] (-) TimerEvent: {}
+[11.204511] (hello_world_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[11.218461] (hello_world_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[11.250032] (-) TimerEvent: {}
+[11.350425] (-) TimerEvent: {}
+[11.393498] (hello_world_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[11.394870] (hello_world_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.450635] (-) TimerEvent: {}
+[11.471186] (hello_world_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.481806] (hello_world_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.550840] (-) TimerEvent: {}
+[11.651324] (-) TimerEvent: {}
+[11.751733] (-) TimerEvent: {}
+[11.852070] (-) TimerEvent: {}
+[11.952525] (-) TimerEvent: {}
+[11.978166] (hello_world_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.983274] (hello_world_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[12.052702] (-) TimerEvent: {}
+[12.074933] (hello_world_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[12.075963] (hello_world_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.152867] (-) TimerEvent: {}
+[12.171411] (hello_world_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.181621] (hello_world_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.253046] (-) TimerEvent: {}
+[12.353651] (-) TimerEvent: {}
+[12.454082] (-) TimerEvent: {}
+[12.554562] (-) TimerEvent: {}
+[12.603702] (hello_world_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.607613] (hello_world_robot) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot/devel\n'}
+[12.608051] (hello_world_robot) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic\n'}
+[12.608284] (hello_world_robot) StdoutLine: {'line': b'-- This workspace overlays: /opt/ros/melodic\n'}
+[12.654737] (-) TimerEvent: {}
+[12.732730] (hello_world_robot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") \n'}
+[12.733214] (hello_world_robot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[12.733461] (hello_world_robot) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[12.733888] (hello_world_robot) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[12.754890] (-) TimerEvent: {}
+[12.855309] (-) TimerEvent: {}
+[12.900141] (hello_world_robot) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[12.900360] (hello_world_robot) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[12.903308] (hello_world_robot) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot/test_results\n'}
+[12.955478] (-) TimerEvent: {}
+[13.045284] (hello_world_robot) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[13.045531] (hello_world_robot) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[13.055608] (-) TimerEvent: {}
+[13.155956] (-) TimerEvent: {}
+[13.255887] (hello_world_robot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") \n'}
+[13.256228] (-) TimerEvent: {}
+[13.259092] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.356412] (-) TimerEvent: {}
+[13.456882] (-) TimerEvent: {}
+[13.557342] (-) TimerEvent: {}
+[13.657810] (-) TimerEvent: {}
+[13.758229] (-) TimerEvent: {}
+[13.827543] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.828523] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[13.858395] (-) TimerEvent: {}
+[13.906267] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[13.906701] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[13.958577] (-) TimerEvent: {}
+[13.983586] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[13.983939] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[14.058774] (-) TimerEvent: {}
+[14.066290] (hello_world_robot) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[14.067735] (hello_world_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.073337] (hello_world_robot) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[14.158949] (-) TimerEvent: {}
+[14.259374] (-) TimerEvent: {}
+[14.359893] (-) TimerEvent: {}
+[14.460407] (-) TimerEvent: {}
+[14.560839] (-) TimerEvent: {}
+[14.661326] (-) TimerEvent: {}
+[14.761965] (-) TimerEvent: {}
+[14.862574] (-) TimerEvent: {}
+[14.962979] (-) TimerEvent: {}
+[15.063410] (-) TimerEvent: {}
+[15.163810] (-) TimerEvent: {}
+[15.251522] (hello_world_robot) StdoutLine: {'line': b'-- catkin 0.7.29\n'}
+[15.251834] (hello_world_robot) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[15.263981] (-) TimerEvent: {}
+[15.364423] (-) TimerEvent: {}
+[15.464824] (-) TimerEvent: {}
+[15.565208] (-) TimerEvent: {}
+[15.665635] (-) TimerEvent: {}
+[15.766034] (-) TimerEvent: {}
+[15.846991] (hello_world_robot) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[15.866118] (-) TimerEvent: {}
+[15.966454] (-) TimerEvent: {}
+[16.066854] (-) TimerEvent: {}
+[16.167275] (-) TimerEvent: {}
+[16.267747] (-) TimerEvent: {}
+[16.368355] (-) TimerEvent: {}
+[16.468893] (-) TimerEvent: {}
+[16.569344] (-) TimerEvent: {}
+[16.669754] (-) TimerEvent: {}
+[16.770207] (-) TimerEvent: {}
+[16.870659] (-) TimerEvent: {}
+[16.971182] (-) TimerEvent: {}
+[17.071567] (-) TimerEvent: {}
+[17.171953] (-) TimerEvent: {}
+[17.272359] (-) TimerEvent: {}
+[17.372815] (-) TimerEvent: {}
+[17.473197] (-) TimerEvent: {}
+[17.573534] (-) TimerEvent: {}
+[17.673983] (-) TimerEvent: {}
+[17.774408] (-) TimerEvent: {}
+[17.874813] (-) TimerEvent: {}
+[17.975245] (-) TimerEvent: {}
+[18.075663] (-) TimerEvent: {}
+[18.176124] (-) TimerEvent: {}
+[18.276507] (-) TimerEvent: {}
+[18.376938] (-) TimerEvent: {}
+[18.477368] (-) TimerEvent: {}
+[18.577800] (-) TimerEvent: {}
+[18.678226] (-) TimerEvent: {}
+[18.778641] (-) TimerEvent: {}
+[18.879053] (-) TimerEvent: {}
+[18.979460] (-) TimerEvent: {}
+[19.079953] (-) TimerEvent: {}
+[19.180429] (-) TimerEvent: {}
+[19.280899] (-) TimerEvent: {}
+[19.381382] (-) TimerEvent: {}
+[19.481872] (-) TimerEvent: {}
+[19.582373] (-) TimerEvent: {}
+[19.682840] (-) TimerEvent: {}
+[19.783312] (-) TimerEvent: {}
+[19.883790] (-) TimerEvent: {}
+[19.984272] (-) TimerEvent: {}
+[20.084742] (-) TimerEvent: {}
+[20.185205] (-) TimerEvent: {}
+[20.285673] (-) TimerEvent: {}
+[20.386156] (-) TimerEvent: {}
+[20.486664] (-) TimerEvent: {}
+[20.587213] (-) TimerEvent: {}
+[20.687683] (-) TimerEvent: {}
+[20.788159] (-) TimerEvent: {}
+[20.888655] (-) TimerEvent: {}
+[20.989133] (-) TimerEvent: {}
+[21.089770] (-) TimerEvent: {}
+[21.190241] (-) TimerEvent: {}
+[21.290776] (-) TimerEvent: {}
+[21.391266] (-) TimerEvent: {}
+[21.491724] (-) TimerEvent: {}
+[21.592306] (-) TimerEvent: {}
+[21.692836] (-) TimerEvent: {}
+[21.793365] (-) TimerEvent: {}
+[21.893811] (-) TimerEvent: {}
+[21.994331] (-) TimerEvent: {}
+[22.094912] (-) TimerEvent: {}
+[22.195370] (-) TimerEvent: {}
+[22.295772] (-) TimerEvent: {}
+[22.396175] (-) TimerEvent: {}
+[22.496575] (-) TimerEvent: {}
+[22.596988] (-) TimerEvent: {}
+[22.697539] (-) TimerEvent: {}
+[22.798063] (-) TimerEvent: {}
+[22.836066] (hello_world_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.874118] (hello_world_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[22.884918] (hello_world_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot\n'}
+[22.894471] (hello_world_robot) CommandEnded: {'returncode': 0}
+[22.895873] (hello_world_robot) JobProgress: {'identifier': 'hello_world_robot', 'progress': 'build'}
+[22.895948] (hello_world_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,9087,2'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('SSH_CLIENT', '35.172.155.192 63385 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'voclabs'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'voclabs'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.6.6'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.6.6/.irbrc'), ('XDG_SESSION_ID', '162'), ('TERM', 'xterm-256color'), ('PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/opt/ros/melodic/bin:/usr/local/rvm/gems/ruby-2.6.6/bin:/usr/local/rvm/gems/ruby-2.6.6@global/bin:/usr/local/rvm/rubies/ruby-2.6.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.6.6'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '44.201.115.11'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.6.6'), ('C9_PID', 'd0e321718f0a4d0e8bcf1b64cf2405e7'), ('rvm_version', '1.29.12 (latest)'), ('C9_PROJECT', 'ros_melodic'), ('PWD', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.6.6:/usr/local/rvm/gems/ruby-2.6.6@global'), ('SSH_CONNECTION', '35.172.155.192 41906 172.31.83.243 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%2'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.6.6/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[22.898184] (-) TimerEvent: {}
+[22.956765] (hello_world_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hello_world_robot_xacro_generated_to_devel_space_\x1b[0m\n'}
+[22.972883] (hello_world_robot) StdoutLine: {'line': b'Built target hello_world_robot_xacro_generated_to_devel_space_\n'}
+[22.987143] (hello_world_robot) CommandEnded: {'returncode': 0}
+[22.998362] (-) TimerEvent: {}
+[23.057133] (hello_world_robot) JobProgress: {'identifier': 'hello_world_robot', 'progress': "build target 'tests'"}
+[23.057341] (hello_world_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot', '--target', 'tests', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,9087,2'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('SSH_CLIENT', '35.172.155.192 63385 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'voclabs'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'voclabs'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.6.6'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.6.6/.irbrc'), ('XDG_SESSION_ID', '162'), ('TERM', 'xterm-256color'), ('PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/opt/ros/melodic/bin:/usr/local/rvm/gems/ruby-2.6.6/bin:/usr/local/rvm/gems/ruby-2.6.6@global/bin:/usr/local/rvm/rubies/ruby-2.6.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.6.6'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '44.201.115.11'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.6.6'), ('C9_PID', 'd0e321718f0a4d0e8bcf1b64cf2405e7'), ('rvm_version', '1.29.12 (latest)'), ('C9_PROJECT', 'ros_melodic'), ('PWD', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.6.6:/usr/local/rvm/gems/ruby-2.6.6@global'), ('SSH_CONNECTION', '35.172.155.192 41906 172.31.83.243 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%2'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.6.6/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[23.098593] (-) TimerEvent: {}
+[23.134581] (hello_world_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tests\x1b[0m\n'}
+[23.151264] (hello_world_robot) StdoutLine: {'line': b'Built target tests\n'}
+[23.169784] (hello_world_robot) CommandEnded: {'returncode': 0}
+[23.198772] (-) TimerEvent: {}
+[23.269568] (hello_world_robot) JobProgress: {'identifier': 'hello_world_robot', 'progress': 'install'}
+[23.281239] (hello_world_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot', 'env': OrderedDict([('HISTFILESIZE', '100000'), ('TMUX', '/tmp/tmux-1000/cloud92.2,9087,2'), ('MAIL', '/var/mail/ubuntu'), ('USER', 'ubuntu'), ('SSH_CLIENT', '35.172.155.192 63385 22'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '4'), ('OLDPWD', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld'), ('HOME', '/home/ubuntu'), ('PORT', '8080'), ('ISOUTPUTPANE', '0'), ('NVM_BIN', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin'), ('NVM_NODEJS_ORG_MIRROR', 'https://nodejs.org/dist'), ('ROS_PYTHON_VERSION', '2'), ('C9_USER', 'voclabs'), ('NVM_DIR', '/home/ubuntu/.nvm'), ('NVM_PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/lib/node'), ('ROS_DISTRO', 'melodic'), ('HGUSER', 'voclabs'), ('LOGNAME', 'ubuntu'), ('rvm_bin_path', '/usr/local/rvm/bin'), ('_', '/usr/local/bin/colcon'), ('RUBY_VERSION', 'ruby-2.6.6'), ('ROS_VERSION', '1'), ('C9_PORT', '8080'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('IRBRC', '/usr/local/rvm/rubies/ruby-2.6.6/.irbrc'), ('XDG_SESSION_ID', '162'), ('TERM', 'xterm-256color'), ('PATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/bin:/opt/ros/melodic/bin:/usr/local/rvm/gems/ruby-2.6.6/bin:/usr/local/rvm/gems/ruby-2.6.6@global/bin:/usr/local/rvm/rubies/ruby-2.6.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin'), ('NVM_IOJS_ORG_MIRROR', 'https://iojs.org/dist'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MY_RUBY_HOME', '/usr/local/rvm/rubies/ruby-2.6.6'), ('LANG', 'C.UTF-8'), ('HISTSIZE', '100000'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('C9_HOSTNAME', '44.201.115.11'), ('NODE_PATH', '/home/ubuntu/.c9/node_modules'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('rvm_prefix', '/usr/local'), ('PROMPT_COMMAND', 'history -a;'), ('GEM_HOME', '/usr/local/rvm/gems/ruby-2.6.6'), ('C9_PID', 'd0e321718f0a4d0e8bcf1b64cf2405e7'), ('rvm_version', '1.29.12 (latest)'), ('C9_PROJECT', 'ros_melodic'), ('PWD', '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot'), ('GEM_PATH', '/usr/local/rvm/gems/ruby-2.6.6:/usr/local/rvm/gems/ruby-2.6.6@global'), ('SSH_CONNECTION', '35.172.155.192 41906 172.31.83.243 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('IP', '127.0.0.1'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('rvm_path', '/usr/local/rvm'), ('TMUX_PANE', '%2'), ('MANPATH', '/home/ubuntu/.nvm/versions/node/v8.17.0/share/man:/usr/local/rvm/rubies/ruby-2.6.6/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man:/usr/local/rvm/man'), ('EDITOR', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[23.298954] (-) TimerEvent: {}
+[23.335279] (hello_world_robot) StdoutLine: {'line': b'Built target hello_world_robot_xacro_generated_to_devel_space_\n'}
+[23.356537] (hello_world_robot) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[23.365304] (hello_world_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.366680] (hello_world_robot) StdoutLine: {'line': b'+ cd /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/src/hello_world_robot\n'}
+[23.366922] (hello_world_robot) StdoutLine: {'line': b'+ mkdir -p /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages\n'}
+[23.368080] (hello_world_robot) StdoutLine: {'line': b'+ /usr/bin/env PYTHONPATH=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages:/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot /usr/bin/python2 /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/src/hello_world_robot/setup.py build --build-base /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot install --root=/ --install-layout=deb --prefix=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot --install-scripts=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/bin\n'}
+[23.399092] (-) TimerEvent: {}
+[23.414520] (hello_world_robot) StdoutLine: {'line': b'running build\n'}
+[23.414756] (hello_world_robot) StdoutLine: {'line': b'running build_py\n'}
+[23.416741] (hello_world_robot) StdoutLine: {'line': b'creating /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot/lib.linux-x86_64-2.7\n'}
+[23.417146] (hello_world_robot) StdoutLine: {'line': b'creating /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot/lib.linux-x86_64-2.7/hello_world_robot\n'}
+[23.417444] (hello_world_robot) StdoutLine: {'line': b'copying src/hello_world_robot/__init__.py -> /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot/lib.linux-x86_64-2.7/hello_world_robot\n'}
+[23.417857] (hello_world_robot) StdoutLine: {'line': b'running install\n'}
+[23.418101] (hello_world_robot) StdoutLine: {'line': b'running install_lib\n'}
+[23.418539] (hello_world_robot) StdoutLine: {'line': b'creating /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot\n'}
+[23.418843] (hello_world_robot) StdoutLine: {'line': b'copying /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot/lib.linux-x86_64-2.7/hello_world_robot/__init__.py -> /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot\n'}
+[23.419599] (hello_world_robot) StdoutLine: {'line': b'byte-compiling /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot/__init__.py to __init__.pyc\n'}
+[23.421413] (hello_world_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.422410] (hello_world_robot) StdoutLine: {'line': b'Writing /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot-1.4.1.egg-info\n'}
+[23.426467] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/pkgconfig/hello_world_robot.pc\n'}
+[23.426844] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig.cmake\n'}
+[23.427216] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig-version.cmake\n'}
+[23.427531] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/package.xml\n'}
+[23.428014] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/hello_world_robot/rotate.py\n'}
+[23.428329] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch\n'}
+[23.428548] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/deploy_rotate.launch\n'}
+[23.428788] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/rotate.launch\n'}
+[23.428997] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/deploymentScripts\n'}
+[23.429206] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/deploymentScripts/post_launch_file.sh\n'}
+[23.429412] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/deploymentScripts/pre_launch_file.sh\n'}
+[23.429623] (hello_world_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/rviz/turtlebot3_model.rviz\n'}
+[23.433131] (hello_world_robot) CommandEnded: {'returncode': 0}
+[23.504438] (-) TimerEvent: {}
+[23.612157] (-) TimerEvent: {}
+[23.713971] (-) TimerEvent: {}
+[23.763125] (hello_world_robot) JobEnded: {'identifier': 'hello_world_robot', 'rc': 0}
+[23.765584] (-) EventReactorShutdown: {}

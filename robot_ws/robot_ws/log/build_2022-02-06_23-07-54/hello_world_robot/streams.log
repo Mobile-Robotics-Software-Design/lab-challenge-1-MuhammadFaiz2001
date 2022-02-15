@@ -1,0 +1,33 @@
+[0.034s] Invoking command in '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot -- -j4 -l4
+[0.092s] Built target hello_world_robot_xacro_generated_to_devel_space_
+[0.105s] Invoked command in '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot -- -j4 -l4
+[0.155s] Invoking command in '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot --target tests -- -j4 -l4
+[0.221s] Built target tests
+[0.235s] Invoked command in '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot --target tests -- -j4 -l4
+[0.298s] Invoking command in '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot --target install -- -j4 -l4
+[0.352s] Built target hello_world_robot_xacro_generated_to_devel_space_
+[0.373s] [36mInstall the project...[0m
+[0.383s] -- Install configuration: ""
+[0.384s] + cd /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/src/hello_world_robot
+[0.384s] + mkdir -p /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages
+[0.385s] + /usr/bin/env PYTHONPATH=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages:/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot /usr/bin/python2 /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/src/hello_world_robot/setup.py build --build-base /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot install --root=/ --install-layout=deb --prefix=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot --install-scripts=/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/bin
+[0.424s] running build
+[0.424s] running build_py
+[0.425s] running install
+[0.425s] running install_lib
+[0.426s] running install_egg_info
+[0.426s] Removing /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot-1.4.1.egg-info
+[0.426s] Writing /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages/hello_world_robot-1.4.1.egg-info
+[0.431s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/pkgconfig/hello_world_robot.pc
+[0.431s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig.cmake
+[0.431s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/cmake/hello_world_robotConfig-version.cmake
+[0.431s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/package.xml
+[0.432s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/lib/hello_world_robot/rotate.py
+[0.432s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch
+[0.432s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/deploy_rotate.launch
+[0.432s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/launch/rotate.launch
+[0.432s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/deploymentScripts
+[0.432s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/deploymentScripts/post_launch_file.sh
+[0.432s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/deploymentScripts/pre_launch_file.sh
+[0.432s] -- Up-to-date: /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/install/hello_world_robot/share/hello_world_robot/rviz/turtlebot3_model.rviz
+[0.436s] Invoked command in '/home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/aws-robomaker-sample-application-helloworld/robot_ws/build/hello_world_robot --target install -- -j4 -l4

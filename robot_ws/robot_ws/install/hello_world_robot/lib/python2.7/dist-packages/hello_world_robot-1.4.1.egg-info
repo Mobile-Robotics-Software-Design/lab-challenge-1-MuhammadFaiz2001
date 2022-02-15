@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hello_world_robot
+Version: 1.4.1
+Summary: AWS RoboMaker robot package with a rotating Turtlebot3
+Home-page: UNKNOWN
+Author: AWS RoboMaker
+Author-email: ros-contributions@amazon.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
