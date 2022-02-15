@@ -15,6 +15,7 @@ Some of the strengths RoboMaker has are the following:
 3. No requirement of real life tools or tests
 4. Easier and faster paced tests
 5. No problems occuring in the hardware
+
 Some of the weaknesses RoboMaker has are the following:
 1. Paid-Platform
 2. Dosent allow kids to really fall in love with the hardware aspect of development
